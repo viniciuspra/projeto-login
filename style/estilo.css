@@ -29,14 +29,14 @@ main {
 
 section#login {
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
     
     background-color: white;
     width: 300px;
-    height: 400px;
+    height: 500px;
     box-shadow: 0 px 0px 8px rgba(0, 0, 0, 0.406);
 }
 
@@ -72,6 +72,10 @@ div#sty {
     border: 1px solid white;
     transition: 1s;
     transform: scale(0.97);
+}
+
+#btnbig {
+    display: none;
 }
 
 #form {
