@@ -41,6 +41,7 @@ section#login {
 }
 
 div#sty {
+    display: block;
     background-image: linear-gradient(to bottom, #C03453, #DA4957);
     height: 100px;
 }
@@ -59,13 +60,22 @@ div#sty {
     border-radius: 50%;
     background-image: linear-gradient(to bottom, #D44762, #EE585B);
     border: none;
-    margin-left: 125px;
+    margin: 10px 0px 0px 125px;
     position: fixed;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
+    transition: 0.2s all;
 }
 
 #btn:hover {
     background-image: linear-gradient(to bottom, #c2425a, #d85254);
+    border: 1px solid white;
     transition: 1s;
+    transform: scale(0.97);
+}
+
+#form {
+    display: block;
+    padding: 30px;
+    
 }
