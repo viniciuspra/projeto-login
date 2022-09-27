@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section#login {
+        width: 560px;   
+        display: inline-block;
+    }
+
+    section#login > div#form {
+        float: right;
+        width: 360px;
+        height: 100vh;
+    }
+
+    section#login > div#sty {
+        float: left;
+        width: 200px;
+        height: 100vh;
+    }
+    
+    #sty > p {
+        text-align: center;
+        margin-top: 135px;
+    }
+
+    #btn {
+        display: none;
+    }
+    
+    #btnbig {
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-image: linear-gradient(to bottom, #D44762, #EE585B);
+        border: none;
+        position: fixed;
+        color: white;
+        font-size: 20px;
+        transition: 0.2s all;
+        margin: -40px 0px 0px 175px;
+        
+    }
+
+    #btnbig:hover {
+        background-image: linear-gradient(to bottom, #c2425a, #d85254);
+        border: 1px solid white;
+        transition: 1s;
+        transform: scale(0.97);
+    }
+    
+
+}
+
+@media screen and (min-width: 992px) {
+    section#login {
+        width: 750px;   
+        display: inline-block;
+    }
+
+    section#login > div#form {
+        float: right;
+        width: 500px;
+        height: 100vh;
+    }
+
+    section#login > div#sty {
+        float: left;
+        width: 250px;
+        height: 100vh;
+    }
+    
+    #sty > p {
+        text-align: center;
+        margin-top: 135px;
+    }
+
+    #btn {
+        display: none;
+    }
+    
+    #btnbig {
+        display: block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-image: linear-gradient(to bottom, #D44762, #EE585B);
+        border: none;
+        position: fixed;
+        color: white;
+        font-size: 20px;
+        transition: 0.2s all;
+        margin: -40px 0px 0px 225px;
+        
+    }
+
+    #btnbig:hover {
+        background-image: linear-gradient(to bottom, #c2425a, #d85254);
+        border: 1px solid white;
+        transition: 1s;
+        transform: scale(0.97);
+    }
+    
+
+}
+
