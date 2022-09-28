@@ -36,7 +36,7 @@ section#login {
     
     background-color: white;
     width: 320px;
-    height: 90%;
+    height: 80%;
     box-shadow: 0 px 0px 8px rgba(0, 0, 0, 0.406);
 
     transition: width 0.2s, heitgh 0.2s;
