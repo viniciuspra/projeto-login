@@ -12,15 +12,19 @@
     }
 
     section#login > div#form {
-        float: right;
+        float: left;
         width: 45vw;
         height: 400px;
     }
 
     section#login > div#sty {
-        float: left;
+        float: right;
         width: 25vw;
         height: 400px;
+    }
+
+    #form {
+        padding: 50px;
     }
     
     #sty > p {
@@ -28,6 +32,11 @@
         margin-top: 135px;
     }
     
+    .btn {
+        height: 40px;
+        font-size: 1.1;
+        margin: 20px 0;
+    }
 
 }
 
@@ -42,22 +51,34 @@
         display: inline-block;
     }
 
+    
     section#login > div#form {
         float: right;
         width: 500px;
         height: 100vh;
     }
-
+    
     section#login > div#sty {
         float: left;
         width: 250px;
         height: 100vh;
+    }
+
+    #form {
+        padding: 70px;
     }
     
     #sty > p {
         text-align: center;
         margin-top: 135px;
     }
+
+    .btn {
+        height: 50px;
+        font-size: 1.2;
+        margin: 20px 0;
+    }
+
 
 }
 
