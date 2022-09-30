@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d8485be30e.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/estilo.css">
     <link rel="stylesheet" href="style/media-query.css">
 
@@ -19,9 +20,19 @@
             </div>
             <div id="form">
                 <h1>Login</h1>
-                <form action="login.php" method="post">
-                    <span class="material-icons" id="person">person</span>
-                    <span class="material-icons" id="pass">password</span>
+                <form action="" method="post">
+                    <div class="input-login">
+                        <input required type="text" name="" id="nome" class="input" autocomplete="off">
+                        <label for="nome" id="ico"><i class="fa-solid fa-user"></i></label>
+                        <label for="nome" id="label">Username</label>
+                    </div>
+                    <div class="input-login">
+                        <input required type="password" name="" id="senha" class="input">
+                        <label for="senha" id="ico"><i class="fa-solid fa-lock"></i></label>
+                        <label for="senha" id="label">Password</label>
+                    </div>
+                    <a href="#">Forgot Password?</a>
+                    <input type="submit" value="Login" class="btn">
                 </form>
             </div>
         </section>
